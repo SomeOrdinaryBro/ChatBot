@@ -27,6 +27,7 @@ def generate_response(prompt):
     message = response.choices[0].text
     return message
 
+print(model_prompt)
 while True:
     try:
         user_input = input("> ")
