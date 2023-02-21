@@ -4,7 +4,7 @@ from nltk.stem import WordNetLemmatizer
 import random
 import re
 
-openai.api_key = "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"
+openai.api_key = "Your_API_Key_Goes_Here"
 
 model_engine = "text-davinci-002"
 model_prompts = {
