@@ -10,7 +10,6 @@ To run JARVIS, you will need:
 -   **[Python 3.x](https://www.python.org/downloads/)** Latest
 -   The following Python libraries: **OpenAI**, **spacy**, and **nltk**
 
-
 ## Usage
 
 1.  Clone the repository to your local machine.
@@ -28,4 +27,18 @@ You can customize JARVIS to fit your needs by modifying the `model_engine` and `
 
 ## Contributions
 
-We welcome contributions to JARVIS! If you find a bug or want to suggest an improvement, please open an issue or pull request.
+Contributions are welcome to JARVIS! If you find a bug or want to suggest an improvement, please open an issue or pull request.
+
+## Update
+
+The latest update has made the following changes to the code:
+
+-   Define a single model prompt for generating responses.
+-   Use a fixed prompt for all user inputs.
+-   Generate only one response for each user input.
+-   Use a temperature of 0.5 for response generation.
+-   Remove the use of a stop sequence for response generation.
+-   Remove some unnecessary pre-processing steps for the prompt.
+-   Set the maximum token limit to 1024 for response generation.
+-   Set a timeout limit of 10 seconds for response generation.
+-   Do not remove non-ASCII characters from the generated response.
